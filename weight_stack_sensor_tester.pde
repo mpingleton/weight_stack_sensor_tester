@@ -5,7 +5,7 @@ void setup() {
   size(800, 600);
   
   controller = new Controller();
-  controller.connect(this, "/dev/cu.usbmodem11301");
+  controller.connect(this, "/dev/cu.usbserial-21140");
 }
 
 void serialEvent(Serial s) {
